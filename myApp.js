@@ -6,4 +6,4 @@ mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true
 });
 
-mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(mongodb+srv://aaronjohnyumul526_db_user:whatthefuckmen@cluster0.rx9kmzb.mongodb.net/?appName=Cluster0, { useNewUrlParser: true, useUnifiedTopology: true });
